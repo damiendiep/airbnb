@@ -172,7 +172,6 @@ video {
 	margin-left: 4.5%;
 }
 #firstcontent1 h1 {
-	font-size: 2.4em;
 	padding: 5%;
 	text-align: left;
 	color: #565A5C;
@@ -185,6 +184,7 @@ video {
 }
 #firstcontent1 button {
 	margin : 5%;
+	width: 90%;
 }
 
 
