@@ -1,0 +1,298 @@
+body {
+	background-color: #EDEFED;
+	font-family: "Roboto" , cursiva;
+}
+
+/*header content*/
+
+/*background setting*/
+#logo1 {
+	margin-top: -2%;
+	margin-left: 2%;
+	width: 30%;
+}
+
+
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+    height: 0px;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    top: 0%;
+    left: 0%;
+    height: 85%;
+    width: 100%;
+    overflow: hidden;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    top: 0%;
+}
+.video-container video.fillWidth {
+    width: 100%;
+}
+
+
+/*title setting*/
+#my-header h1{
+	font-size: 5em;
+}
+
+.navbar-header {
+	color: white;
+}
+
+/*paragraph text*/
+#my-header p{
+	font-family: "Roboto", cursiva;
+	font-size: 1.2em;
+}
+
+
+
+
+/*header btn border*/
+.btn-Info {
+	color: white;
+	background-color: rgba(237,239,237,0.3);
+}
+.btn-Info:hover {
+	background-color: rgba(16,16,16,0.5);
+	color: white;
+}
+
+
+
+
+/*button border airbnb*/
+#border{
+	border:2px solid white;
+	margin-top: 8.5%;
+	padding-top: 3.5%;
+	padding-bottom: 3.5%;
+}
+
+/*Header content*/
+#my-header {
+	text-align: center;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	color: white;
+}
+
+/*bottom header*/
+#backfoot {
+	margin-bottom: -28px;
+	margin-top: 0.2%;
+	text-align: center;
+	background-color: rgba(16,16,16,0.7);
+	padding: 2%;
+}
+
+/*button depart*/
+#depart {
+	width: 12%;
+}
+
+/*button arrivé*/
+#arriver {
+	width: 12%;
+}
+
+/*hyper text setting*/
+a {
+	text-decoration: none;
+	color: white;
+}
+
+/*logo setting*/
+div.container {
+	margin-left: 0;
+	width: 100%;
+}
+
+/*top bar setting*/
+.container {
+	padding-left: 0;
+	padding-right: 0;
+	margin-right: 0;
+	margin-top: 0.2%;
+	font-family: "Roboto", cursiva;
+}
+
+video {
+	margin-bottom: 1.5%;
+}
+
+
+
+/*first image*/
+#image1 {
+	padding: 0;
+	margin-top: 5%;
+}
+#image1 img{
+	width: 90%;
+	height: 297px;
+}
+
+
+/*middle content*/
+#firstcontent1 {
+	height: 297px;
+	background-color: white;
+	margin-top: 5%;
+	text-align: center;
+	margin-left: 4.5%;
+}
+#firstcontent1 h1 {
+	font-size: 2.4em;
+	padding: 5%;
+	text-align: left;
+	color: #565A5C;
+}
+#firstcontent1 p {
+	text-align: left;
+	color: #565A5C;
+	padding-left: 5%;
+	font-size: 1.2em;
+}
+#firstcontent1 button {
+	margin : 5%;
+}
+
+
+
+/*transition between image*/
+#middle h1 {
+		font-size: 2.4em;
+	text-align: center;
+	color: #565A5C;
+	margin-top: 3%;
+}
+#middle p {
+		text-align: center;
+	color: #565A5C;
+	font-size: 1.2em;
+	margin-bottom: 3%;
+}
+
+
+
+
+/*city image*/
+#lille img {
+	margin-top: 4%;
+	height: 300px;
+	width: 300px;
+}
+#bx img {
+	margin-top: 4%;
+	height: 300px;
+	width: 300px;
+}
+#londre img {
+	margin-top: 4%;
+	height: 300px;
+	width: 300px;
+}
+
+
+
+/*footer setting*/
+footer {
+	margin-top: 5%;
+	background-color: rgba(48,50,51,1);
+	height: 450px;
+}
+footer h1 {
+	font-family: "Roboto", cursiva;
+	margin-top: 30%;
+	font-size: 1.2em;
+	color: white;
+	margin-left: 25%;
+}
+footer ul {
+	padding: 0;
+}
+footer li {
+	font-family: "Roboto", cursiva;
+	list-style-type: none;
+	font-family: "Roboto",cursiva;
+	font-size: 0.9em;
+	color: white;
+	margin-left: 25%;
+}
+footer h2 {
+	font-family: "Roboto", cursiva;
+	opacity: 0.5;
+	font-size: 1.2em;
+	color: white;
+	margin-top: 1;
+}
+footer hr {
+	opacity: 0.3;
+}
+
+
+
+/*icon part with copyright*/
+#copyright {
+	margin-top: 1%;
+	text-align: center;
+}
+
+#copyright h1 {
+	margin: 0;
+	margin-bottom: 1%;
+
+}
+i {
+	border: 1px solid grey;
+	padding: 5px;
+	border-radius: 50%;
+}
+
+
+/*                NOW start media query                */
+
+@media screen and (max-width: 839px) {
+	section {
+		display: none;
+	}
+	#image1 img{
+		margin-left: 7.5%;
+	}
+	hr {
+		display: none;
+	}
+	.video-container video.fillWidth {
+    width: 500%;
+}
+}
