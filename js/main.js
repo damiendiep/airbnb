@@ -1,20 +1,3 @@
-$(window).scroll(function() {
-if ($(this).scrollTop() > 1200){  
-    $('nav').addClass("sticky");
-  }
-  else{
-    $('nav').removeClass("sticky");
-  }
-});
-
-$(window).scroll(function() {
-if ($(this).scrollTop() > 1200){  
-    $('nav').addClass("navbar-inverse");
-  }
-  else{
-    $('nav').removeClass("navbar-inverse");
-  }
-});
 
 //jQuery is required to run this code
 $( document ).ready(function() {

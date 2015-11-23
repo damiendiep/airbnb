@@ -13,21 +13,8 @@ body {
 }
 
 
+/*------------------ Video -----------------------*/
 
-.homepage-hero-module {
-    border-right: none;
-    border-left: none;
-    position: relative;
-    height: 0px;
-}
-.no-video .video-container video,
-.touch .video-container video {
-    display: none;
-}
-.no-video .video-container .poster,
-.touch .video-container .poster {
-    display: block !important;
-}
 .video-container {
     position: relative;
     bottom: 0%;
@@ -36,11 +23,6 @@ body {
     height: 85%;
     width: 100%;
     overflow: hidden;
-}
-.video-container .poster img {
-    width: 100%;
-    bottom: 0;
-    position: absolute;
 }
 .video-container .filter {
     z-index: 100;
@@ -57,6 +39,14 @@ body {
 .video-container video.fillWidth {
     width: 100%;
 }
+
+video {
+	margin-bottom: 1.5%;
+}
+
+
+/*---------------------VIDEO-----------------------*/
+
 
 
 /*title setting*/
@@ -144,10 +134,6 @@ div.container {
 	margin-right: 0;
 	margin-top: 0.2%;
 	font-family: "Roboto", cursiva;
-}
-
-video {
-	margin-bottom: 1.5%;
 }
 
 
@@ -280,7 +266,7 @@ i {
 }
 
 
-/*                NOW start media query                */
+/*                media query                */
 
 @media screen and (max-width: 839px) {
 	section {
