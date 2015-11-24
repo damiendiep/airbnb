@@ -150,6 +150,10 @@ div.container {
 
 
 /*middle content*/
+.row{
+	margin-right: 0;
+}
+
 #firstcontent1 {
 	height: 297px;
 	background-color: white;
